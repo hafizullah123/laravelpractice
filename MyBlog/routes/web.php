@@ -1,4 +1,5 @@
 <?php
+use App\Http\Controllers\postcontroller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -18,7 +19,8 @@ Route::post('/', function (Request $request ) {
 
 Route::put('/', function (Request $request ) {
     dd($request ->all());
-   
+
 });
 
 
+Route::resource('/posts', postcontroller::class);

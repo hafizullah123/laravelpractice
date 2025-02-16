@@ -12,7 +12,7 @@ class postcontroller extends Controller
      */
     public function index()
     {
-        //
+    return view('posts.index');
     }
 
     /**
@@ -20,7 +20,7 @@ class postcontroller extends Controller
      */
     public function create()
     {
-        //
+return view('posts.create');
     }
 
     /**
@@ -34,17 +34,18 @@ class postcontroller extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(post $post)
+    public function show()
     {
-        //
+        //hfghgh
+        return view('posts.show' );
     }
 
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(post $post)
+    public function edit()
     {
-        //
+        return view('posts.edit');
     }
 
     /**
