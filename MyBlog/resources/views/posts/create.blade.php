@@ -1,6 +1,5 @@
 <x-layout>
-    <div class="container mx-auto p-6 max-w-3xl bg-white shadow-md rounded-lg dark:bg-gray-900">
-        <h1 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">Create Post</h1>
+<x-header>Create Post </x-header>
 
         <form>
             <div class="mb-6">
